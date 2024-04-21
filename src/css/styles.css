@@ -92,7 +92,6 @@ body {
   width: calc((100% - 48px) / 3);
   border-radius: 4px;
   border: 1px solid #000;
-
   transition: transform 250ms ease-in-out;
   overflow: hidden;
 }
@@ -154,7 +153,6 @@ body {
 }
 
 @keyframes rotation {
-
   0%,
   10% {
     transform: translate(-64px, -64px) rotate(-45deg);

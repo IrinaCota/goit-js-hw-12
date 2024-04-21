@@ -98,9 +98,9 @@ function showError(msg) {
 function checkBtnVisibleStatus() {
   if (page >= maxPage) {
     hideLoadBtn();
-      iziToast.info({
-        message: "We're sorry, but you've reached the end of search results.",     
-         });
+    iziToast.info({
+      message: "We're sorry, but you've reached the end of search results.",
+    });
   } else {
     showLoadBtn();
   }
